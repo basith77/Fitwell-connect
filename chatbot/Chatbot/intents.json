@@ -1,0 +1,45 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["hello","Welcome to fitwell","How can I help you today? Feel free to ask anything."]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+             "responses":["have a nice day","goodbye"]
+            },
+            {
+             "tag":"age",
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call Ryoko Medbot!","i am Medbot!","i am Medbot your Tourist assistant"]
+            },
+            {
+             "tag":" fitness",
+             "patterns": ["What is fitness"],
+             "responses":["Fitness is the ability to perform daily activities with vigor and energy while maintaining health and reducing risk of disease."]
+            },
+            {
+                "tag":"physical fitness",
+                "patterns": ["What are the components of physical fitness?"],
+                "responses":["Cardiovascular endurance, muscular strength, muscular endurance, flexibility, and body composition."]
+               },
+               {
+                "tag":"workout",
+                "patterns": [" How often should I work out?"],
+                "responses":["It depends on your goals, but generally 3-5 times per week is ideal for most people."]
+               },
+               {
+                "tag":"workout time",
+                "patterns": ["Is it better to work out in the morning or evening?"],
+                "responses":["Both have benefits. The best time is when you feel most energetic and can be consistent."]
+               }
+           
+]}
+        
